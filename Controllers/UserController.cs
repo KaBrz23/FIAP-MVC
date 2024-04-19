@@ -23,7 +23,40 @@ namespace FIAP_MVC.Controllers
         }
 
 
-        //
+        public IActionResult Register(RegisterDTO request)
+{
+    var user = _dataContext.PZ_Users.FirstOrDefault(x => x.UserEmail == request.UserEmail);
+    if (user != null)
+    {
+        return BadRequest("Usuário ja existe");
+    }
+    User newUser = new User { 
+        UserEmail = request.UserEmail ,
+        UserName = request.UserName ,
+        UserPassword = request.UserPassword,
+        UserPhone = request.UserPhone ,
+    };
+    _dataContext.Add(newUser);
+    _dataContext.SaveChanges();
+    return View();
+}
+
+
+
+public IActionResult Login(LoginDTO request) 
+{
+    var find = _dataContext.PZ_Users.FirstOrDefault(x => x.UserEmail == request.UserEmail);
+    if (find == null) 
+    {
+        return NotFound();
+    }
+    if(find.UserPassword != request.UserPassword)
+    {
+        return BadRequest("Senha inválida");
+    }
+    ViewBag.userData = find;
+    return View(find);
+}
 
         
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
