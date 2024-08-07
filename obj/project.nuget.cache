@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1JYwbKC3FaOQPadFhw02xDNNsdEtLkE77ELvGa1dZnFflJfHf81bkIxONygxED6exHeqWn0qdR91jgomBCYCYg==",
+  "dgSpecHash": "Lcv9taalw6pGudQ43lsPzy6srY64wGFOqtKoYouozirm8beE4vVcvbphwSPeGl4vg2AbQGaTRtTyLZWR/8/X9A==",
   "success": true,
   "projectFilePath": "/home/kaue/Área de Trabalho/FIAP/2º ANO/ADVANCED BUSINESS DEVELOPMENT WITH .NET/FIAP-MVC/FIAP-MVC.csproj",
   "expectedPackageFiles": [
+    "/home/kaue/.nuget/packages/datadog.trace/2.56.0/datadog.trace.2.56.0.nupkg.sha512",
     "/home/kaue/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/home/kaue/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
     "/home/kaue/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.3/microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512",
@@ -40,6 +41,7 @@
     "/home/kaue/.nuget/packages/system.composition.runtime/6.0.0/system.composition.runtime.6.0.0.nupkg.sha512",
     "/home/kaue/.nuget/packages/system.composition.typedparts/6.0.0/system.composition.typedparts.6.0.0.nupkg.sha512",
     "/home/kaue/.nuget/packages/system.configuration.configurationmanager/6.0.0/system.configuration.configurationmanager.6.0.0.nupkg.sha512",
+    "/home/kaue/.nuget/packages/system.diagnostics.diagnosticsource/4.4.1/system.diagnostics.diagnosticsource.4.4.1.nupkg.sha512",
     "/home/kaue/.nuget/packages/system.diagnostics.performancecounter/6.0.1/system.diagnostics.performancecounter.6.0.1.nupkg.sha512",
     "/home/kaue/.nuget/packages/system.directoryservices/6.0.1/system.directoryservices.6.0.1.nupkg.sha512",
     "/home/kaue/.nuget/packages/system.directoryservices.protocols/6.0.2/system.directoryservices.protocols.6.0.2.nupkg.sha512",

@@ -1,7 +1,14 @@
 using FIAP_MVC.Data;
 using Microsoft.EntityFrameworkCore;
+using Datadog.Trace;
+using Datadog.Trace.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
+
+// Configuração do tracer
+var settings = TracerSettings.FromDefaultSources();
+settings.Exporter.AgentUri = new Uri("http://datadog-agent:8126");
+Tracer.Configure(settings);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
