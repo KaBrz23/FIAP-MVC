@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FIAP-MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+deffac65eb791ef52d25210a88a1fb9560e4e30f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5817d13a0d0d88cc9b8a02cd1636619e339ee689")]
 [assembly: System.Reflection.AssemblyProductAttribute("FIAP-MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FIAP-MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

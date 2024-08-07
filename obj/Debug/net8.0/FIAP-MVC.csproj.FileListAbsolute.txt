@@ -122,3 +122,5 @@
 /home/kaue/Área de Trabalho/FIAP/2º ANO/ADVANCED BUSINESS DEVELOPMENT WITH .NET/FIAP-MVC/obj/Debug/net8.0/FIAP-MVC.pdb
 /home/kaue/Área de Trabalho/FIAP/2º ANO/ADVANCED BUSINESS DEVELOPMENT WITH .NET/FIAP-MVC/obj/Debug/net8.0/FIAP-MVC.genruntimeconfig.cache
 /home/kaue/Área de Trabalho/FIAP/2º ANO/ADVANCED BUSINESS DEVELOPMENT WITH .NET/FIAP-MVC/obj/Debug/net8.0/ref/FIAP-MVC.dll
+/home/kaue/Área de Trabalho/FIAP/2º ANO/ADVANCED BUSINESS DEVELOPMENT WITH .NET/FIAP-MVC/bin/Debug/net8.0/Datadog.Trace.dll
+/home/kaue/Área de Trabalho/FIAP/2º ANO/ADVANCED BUSINESS DEVELOPMENT WITH .NET/FIAP-MVC/obj/Debug/net8.0/FIAP-MVC.MvcApplicationPartsAssemblyInfo.cs
